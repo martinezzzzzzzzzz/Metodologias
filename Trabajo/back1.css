@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lado-izquierdo {
+    width: 40%;
+    height: 100vh;
+    background-color: #fff;
+    float: left;
+}
+
+.lado-derecho {
+    width: 60%;
+    height: 100vh;
+    background-color: #ee2b7b;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    text-align: center;
+margin-top: 250px;
+}
+.parrafo1{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.div1 {
+    display: flex;
+    flex-direction: column;
+}
+.celda1, .celda2, .celda3, .celda4, .celda5, .celda6{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    width: 400px;
+}
+.boton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px; 
+}
+
+.boton button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #fff;
+    border: none;
+    color: rgb(95, 2, 149);
+    animation-name: cover;
+    animation-duration: .3s;
+    animation-timing-function: linear
+}

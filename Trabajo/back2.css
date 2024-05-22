@@ -1,0 +1,118 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    height: 100%; 
+}
+
+.izquierda {
+    flex: 1;
+    background-color: #ffffff; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.derecha {
+    flex: 1.5;
+    background-color: #ee2b7b;
+    padding: 20px;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.derecha > div:first-child {
+    margin-bottom: 230px; 
+    margin-top: 130px;
+}
+
+
+
+h1, p, strong {
+    margin: 0;
+    color: #000000; 
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p, strong {
+    font-size: 20px;
+}
+
+.izquierda > div {
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.celda1, .celda2, .celda3, .celda4, .celda5, .celda6 {
+    background-color: #ffffff; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    color: #000000; 
+    width: 770px; 
+    height: 30px;
+    max-width: 600px; 
+    text-align: left; 
+}
+
+.boton-regresar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    overflow: hidden; 
+}
+
+.boton-regresar::after {
+    content: ''; 
+    position: absolute;
+    bottom: -2px;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 2px; 
+    background-color: #ee2b7b; 
+    opacity: 0; 
+    animation: llenarLinea 2s ease forwards; 
+}
+
+.boton-regresar:hover::after {
+    opacity: 1; 
+}
+
+@keyframes llenarLinea {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+
+
+

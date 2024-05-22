@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    width: 20%; 
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde con color gris claro */
+    border-radius:0 0 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #f9f9f9; /* Color de fondo */
+  }
+
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 10px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ee2b7b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #ee2b7cd7;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+
+  .btn-volver {
+    margin-top: 20px;
+  }
+
+  .bregistro{
+    margin-top: 20px;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  #logo {
+    width: 100px;
+  }

@@ -1,0 +1,48 @@
+/* Aplica la fuente Roboto a todo el documento */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto-superior {
+    background-color: #ee2b7b;
+    margin-top: 50px; /* Reduce el margen superior */
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center; 
+    display: block; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente */
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor verticalmente */
+    height: calc(100vh - 50px); /* Ajusta la altura para ocupar el espacio restante */
+    margin-top: 20px; /* Espacio entre el texto superior y los divs */
+}
+
+.div1, .div2, .div3 {
+    margin: 0 100px; /* Incrementa el espaciado entre los divs */
+    margin-top: 200px;
+}
+
+.celdan1_1, .celdan1_2, .celdan1_3,
+.celdan2_1, .celdan2_2, .celdan2_3,
+.celdan3_1, .celdan3_2, .celdan3_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    background-color: #ee2b7b;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+.nivel1, .nivel2, .nivel3 {
+    margin-left: 80px;
+}
